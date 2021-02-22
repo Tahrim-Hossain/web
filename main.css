@@ -1,0 +1,54 @@
+/*
+  Tahrim Hossain
+  IntroCS pd05 sec08
+  HW05 -- Stuylin' / HTML / Stylesheets
+  2021-02-19
+*/
+
+/*
+structure of a CSS ruleset:
+SELECTOR { 0 or more DECLARATIONS }
+where each declaration is of the form
+PROPERTY : VALUE;
+ */
+
+
+h1 {
+	font-family: Trebuchet MS, sans-serif;
+  	color: red;
+	font-weight: bold;
+	text-decoration: overline;
+}
+
+h2 {
+	font-family: Helvetica, sans-serif; 
+	color: green;
+	text-decoration: underline overline;
+	text-decoration-style: double;
+}
+
+body {
+	background-color: black;
+	border: 6px solid purple;
+}
+
+ul {
+	color: pink;
+	font-size: larger;
+	border: 8px dotted red;
+	padding: 15px;
+}
+
+p {
+	color: white;
+	font-family: Tahoma, sans-serif;
+	font-weight: lighter;
+	border: 4px solid green;
+	padding: 15px;
+}
+
+a {
+	color: blue;
+	text-decoration: underline;
+	font-family: Tahoma, sans-serif;
+}
