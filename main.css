@@ -15,7 +15,8 @@ PROPERTY : VALUE;
 
 h1 {
 	font-family: Trebuchet MS, sans-serif;
-  color: red;
+  	color: red;
+	
 }
 
 h2 {
@@ -29,11 +30,14 @@ body {
 
 ul {
 	color: pink;
+	font-size: larger;
 }
 
 p {
 	color: white;
 	font-family: Tahoma, sans-serif;
+	border: 2px solid powderblue;
+  	padding: 30px;
 }
 
 a {
